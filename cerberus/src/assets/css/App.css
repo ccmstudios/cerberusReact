@@ -3,6 +3,8 @@
 
 .App {
   text-align: center;
+  padding: 60px;
+  background-color: black;
 }
 
 .App-logo {
