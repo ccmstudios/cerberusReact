@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 .App {
   text-align: center;
@@ -45,11 +46,19 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  background-color: white;
+  background-color: black;
   list-style: none;
   padding: 10px;
 }
 
+#subheader{
+  background-color: black;
+}
+
+#logo{
+  width: 100px;
+  margin-top: 10px;
+}
 #carouselHeader{
   filter: grayscale(100%);
 }
@@ -58,11 +67,13 @@
 }
 
 #navbar{
+  margin-top: 10px;
   align-content: center;
   justify-content: center;
-  background-color: white;
+  background-color: black;
   list-style: none;
   display: flex;
+  color: white;
   text-shadow: 1px 1px black;
 
 }
@@ -72,8 +83,13 @@ li{
 #loginDiv{
 display: flex;
 justify-content: left;
-}
 
+}
+.float-child{
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
 /* Pages and content */
 #home{
   background-color: hotpink;
@@ -89,3 +105,13 @@ justify-content: left;
 filter: saturate(100%);
 }
 
+h3{
+  font-family: 'Poiret One', cursive;
+}
+
+#search{
+  margin-top: 10px;
+  width: 70px;
+  height: auto;
+  margin-left: 30px;
+}

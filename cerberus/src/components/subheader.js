@@ -6,17 +6,18 @@ import Profile from '../pages/profile'
 class Subheader extends React.Component{
     render(){
         return(
-            <div>
+            <div id='subheader'>
                  <div className='row'>
                 <div id='loginDiv'className='col-md-2'>
-<Login/>                </div>
+<Profile/>
+            </div>
                 <div className='col-md-8'>
 <Navbar/>
                 </div>
                 <div id='profileDiv'className='col-md-2'>
-<Profile/>
+<Login/>               
+ </div>
                 </div>
-            </div>
             </div>
         )
     }

@@ -1,12 +1,10 @@
 import React from 'react'
-
+import Cerberus from '../assets/images/cerberus.png'
 class Profile extends React.Component{
     render(){
         return(
             <div id='profile'>
-                <button className='btn btn-lg btn-primary'> 
-                    My Profile
-                    </button>
+               <img id='logo' src={Cerberus}/>
 
             </div>
         )

@@ -26,16 +26,22 @@ class Navbar extends React.Component{
             <nav id='navbar'>
                  <ul id='navbar'>
                      <Link to= '/'>
-                <li>Home<li/>
-                     </li></Link>
+                <h3><li>NFL<li/>
+                     </li></h3></Link>
             <Link to='/fantasy'>
-                <li>Fantasy</li>
+                <h3><li>NCAAF</li></h3>
             </Link>
             <Link to='/podcast'>
-                <li>Podcast</li>
+                <h3><li>Stats</li></h3>
             </Link>
             <Link to='/news'>
-                <li>Football HQ</li>
+                <h3><li>Fantasy HQ</li></h3>
+            </Link>
+            <Link to='/news'>
+                <h3><li>Articles</li></h3>
+            </Link>
+            <Link to='/news'>
+                <h3><li>News</li></h3>
             </Link>
 
             </ul>
