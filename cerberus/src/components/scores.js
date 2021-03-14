@@ -48,6 +48,6 @@ function Scores() {
 );
     }
 
-  render(<Scores />);
+  // render(<Scores />);
 
 export default Scores;
