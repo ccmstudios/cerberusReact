@@ -10,9 +10,9 @@ class Cardgroup extends React.Component{
         return(
             <div>
                 <CardGroup>
-  <Card>
+  <Card bg='secondary' text='light'>
     <Card.Img variant="top" src={GameOne}/>
-    <Card.Body>
+    <Card.Body >
       <Card.Title>Game One</Card.Title>
       <Card.Text>
         This is a wider card with supporting text below as a natural lead-in to
@@ -23,7 +23,7 @@ class Cardgroup extends React.Component{
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
   </Card>
-  <Card>
+  <Card bg='secondary' text='light'>
     <Card.Img variant="top" src={GameTwo} />
     <Card.Body>
       <Card.Title>Game Two</Card.Title>
@@ -36,7 +36,7 @@ class Cardgroup extends React.Component{
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
   </Card>
-  <Card>
+  <Card bg='secondary' text='light'>
     <Card.Img variant="top" src={GameThree} />
     <Card.Body>
       <Card.Title>Game Three</Card.Title>
