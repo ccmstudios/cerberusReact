@@ -89,11 +89,13 @@
 
 }
 li{
-  margin: 0px 20px
+  margin: 0px 20px;
+  color: #61dafb;
 }
 #loginDiv{
 display: flex;
 justify-content: left;
+color: #61dafb;
 
 }
 .float-child{
@@ -118,6 +120,16 @@ filter: saturate(100%);
 
 h3{
   font-family: 'Poiret One', cursive;
+  color: #61dafb;
+}
+
+a href{
+  color: #61dafb;
+}
+#scorestext{
+  font-family: 'Poiret One', cursive;
+color: #61dafb;
+margin: 10px;
 }
 
 #search{
