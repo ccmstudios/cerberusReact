@@ -29,10 +29,10 @@ const Cardgroup = props =>{
     <Card.Body >
       <Card.Title>{props.game}</Card.Title>
       <Card.Text>
-       <img src={props.homelogo}/>Home: {props.home}
+       <img id ='cardimg' src={props.homelogo}/>Home: {props.home}
       </Card.Text>
       <Card.Text>
-      <img src={props.awaylogo}/>Away: {props.away}
+      <img id ='cardimg' src={props.awaylogo}/>Away: {props.away}
       </Card.Text>
     </Card.Body>
     <Card.Footer>

@@ -77,6 +77,10 @@
   background-color: green;
 }
 
+#cardimg{
+  width: 100px;
+}
+
 #navbar{
   margin-top: 10px;
   align-content: center;
