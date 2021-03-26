@@ -12,7 +12,7 @@ const Cardgroup = props =>{
   <Card bg='secondary' text='light'>
     <Card.Img variant="top" src={GameTwo}/>
     <Card.Body >
-      <Card.Title>{props.game}</Card.Title>
+      <Card.Text>{props.game}</Card.Text>
       <Card.Text>
        Home: {props.home}
       </Card.Text>
@@ -27,7 +27,7 @@ const Cardgroup = props =>{
   <Card bg='secondary' text='light'>
     <Card.Img variant="top" src={GameTwo}/>
     <Card.Body >
-      <Card.Title>{props.game}</Card.Title>
+      <Card.Text>{props.game}</Card.Text>
       <Card.Text>
        <img id ='cardimg' src={props.homelogo}/>Home: {props.home}
       </Card.Text>
@@ -42,7 +42,7 @@ const Cardgroup = props =>{
   <Card bg='secondary' text='light'>
     <Card.Img variant="top" src={GameTwo}/>
     <Card.Body >
-      <Card.Title>{props.game}</Card.Title>
+      <Card.Text>{props.game}</Card.Text>
       <Card.Text>
        Home: {props.home}
       </Card.Text>

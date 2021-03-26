@@ -6,7 +6,7 @@ const Stats = props =>{
 
         return(
             <div>
-<Table striped bordered hover variant="dark">
+<Table striped bordered hover variant="light">
   <thead>
     <tr>
       <th></th>
