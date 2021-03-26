@@ -14,7 +14,7 @@ class Profile extends React.Component{
             <Route exact path='/app' component={App} />
 
             <Link to= '/app'>
-            <img id='logo' src={Cerberus}/>
+            <img id='logo' alt="logo" src={Cerberus}/>
                 </Link>
                
 </Switch>

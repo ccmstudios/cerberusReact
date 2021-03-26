@@ -1,14 +1,6 @@
 import React from 'react'
-import {BrowserRouter as Router,Link,Switch,Route} from 'react-router-dom';
-import Home from '../pages/home'
-import News from '../pages/news'
-import Podcast from '../pages/podcast'
-import Profile from '../pages/profile'
-import Fantasy from '../pages/fantasy'
-import NFL from '../pages/nfl'
-import NCAAF from '../pages/ncaaf'
-import Stats from '../pages/stats'
-import Articles from '../pages/articles'
+import {Link} from 'react-router-dom';
+
 
 
 
@@ -17,20 +9,7 @@ class Navbar extends React.Component{
         return(
 
             <div>
-                <Router>
- <Switch>
-       
-
-            <Route path='/fantasy' component={Fantasy} />
-            <Route path='/nfl' component={NFL} />
-            <Route path='/ncaaf' component={NCAAF} />
-            <Route path='/stats' component={Stats} />
-            <Route path='/articles' component={Articles} />
-            <Route path='/news' component={News} />
-
-            
-
-            <nav id='navbar'>
+<nav id='navbar'>
                  <ul id='navbar'>
                      <Link to= '/nfl'>
                 <h3><li>NFL<li/>
@@ -53,8 +32,7 @@ class Navbar extends React.Component{
 
             </ul>
             </nav>
-            </Switch>
-</Router>
+
             </div>
         )
     }
