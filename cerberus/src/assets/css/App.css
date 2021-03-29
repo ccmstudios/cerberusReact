@@ -95,7 +95,7 @@
 }
 li{
   margin: 0px 20px;
-  color: #61dafb;
+  color:rgb(16,88,133);
 }
 #loginDiv{
 display: flex;
@@ -125,15 +125,15 @@ filter: saturate(100%);
 
 h3{
   font-family: 'Poiret One', cursive;
-  color: #61dafb;
+  color: rgb(16,88,133);
 }
 
 a href{
-  color: #61dafb;
+  color: rgb(16,88,133);
 }
 #scorestext{
   font-family: 'Poiret One', cursive;
-color: #61dafb;
+color: rgb(16,88,133);
 margin: 10px;
 }
 

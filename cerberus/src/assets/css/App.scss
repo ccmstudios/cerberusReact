@@ -50,7 +50,7 @@ body {
   }
 
   li {
-    color: white;
+    color:white;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -90,9 +90,11 @@ body {
 
 .game__container {
   padding: 0.5rem;
-  background-color: white;
+  background-color:rgb(16,88,133);
   border-right: 1px solid gray;
   font-size: 12px;
+  color: white;
+  text-shadow: 1px 1px black;
   
   @media (max-width: $break--mobile) {
     border-bottom: 1px dotted #DCDDDF;

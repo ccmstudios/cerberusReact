@@ -24,7 +24,7 @@ function App() {
     <div className="App">
                       <Router>
       <Subheader/>
-                        <Livescores/>
+                        {/* <Livescores/> */}
       <Scores/>
  <Switch>
        
