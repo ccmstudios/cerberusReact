@@ -13,10 +13,10 @@ import Profile from './pages/profile'
 import Fantasy from './pages/fantasy'
 import NFL from './pages/nfl'
 import NCAAF from './pages/ncaaf'
-import Stats from './pages/stats'
 import Articles from './pages/articles'
 import {BrowserRouter as Router,Link,Switch,Route} from 'react-router-dom';
 import Livescores from './components/livescores';
+import Statstable from './pages/statstable';
 
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
             <Route path='/fantasy' component={Fantasy} />
             <Route path='/nfl' component={NFL} />
             <Route path='/ncaaf' component={NCAAF} />
-            <Route path='/stats' component={Stats} />
+            <Route path='/statstable' component={Statstable} />
             <Route path='/articles' component={Articles} />
             <Route path='/news' component={News} />
 
