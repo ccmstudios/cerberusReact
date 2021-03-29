@@ -6,7 +6,7 @@ const Stats = props =>{
 
         return(
             <div>
-<Table striped bordered hover variant="light">
+<Table striped bordered hover id = 'stats'>
   <thead>
     <tr>
       <th></th>
@@ -15,12 +15,12 @@ const Stats = props =>{
       <th></th>
       <th></th>
       <th></th>
+      <th></th>
+      <th> </th>
       <th colSpan='3'>Passing</th>
       <th colSpan='2'>Rushing</th>
       <th colSpan='3'>Receiving</th>
       <th colSpan='4'>Defense</th>
-      <th></th>
-      <th> </th>
       <th></th>
       <th></th>
       <th></th>
@@ -39,6 +39,8 @@ const Stats = props =>{
       <th>Position</th>
       <th>Week</th>
       <th>Opponent</th>
+      <th>FPTs</th>
+      <th>FPTs/G</th>
       <th>Yards</th>
       <th>Touchdowns</th>
       <th>Interceptions</th>
@@ -51,8 +53,6 @@ const Stats = props =>{
       <th>Interceptions</th>
       <th>Force Fumble</th>
       <th>Fumble Recovery</th>
-      <th>FPTs/G</th>
-      <th>FPTs</th>
     </tr>
   </thead>
   <tbody>

@@ -147,3 +147,9 @@ margin: 10px;
 #testcarousel{
   display: flex;
 }
+
+/* stats */
+
+#stats{
+  background: rgb(16,88,133);
+}
