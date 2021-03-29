@@ -1,5 +1,6 @@
 
 import './assets/css/App.css';
+import './assets/css/App.scss';
 import Header from './components/header'
 import Home from './pages/home'
 import Footer from './components/footer'
@@ -15,6 +16,7 @@ import NCAAF from './pages/ncaaf'
 import Stats from './pages/stats'
 import Articles from './pages/articles'
 import {BrowserRouter as Router,Link,Switch,Route} from 'react-router-dom';
+import Livescores from './components/livescores';
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
     <div className="App">
                       <Router>
       <Subheader/>
+                        <Livescores/>
       <Scores/>
  <Switch>
        
