@@ -17,6 +17,7 @@ import Articles from './pages/articles'
 import {BrowserRouter as Router,Link,Switch,Route} from 'react-router-dom';
 import Livescores from './components/livescores';
 import Statstable from './pages/statstable';
+import Highlight from './components/highlights';
 
 
 function App() {
@@ -24,7 +25,6 @@ function App() {
     <div className="App">
                       <Router>
       <Subheader/>
-                        {/* <Livescores/> */}
       <Scores/>
  <Switch>
        
@@ -39,6 +39,7 @@ function App() {
 <Header/>
 <Home/>
 <Footer/>
+<Highlight/>
 </Switch>
 </Router>
     </div>

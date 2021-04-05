@@ -5,7 +5,7 @@ class Login extends React.Component{
         return(
             <div className="float-container" id='login'>
                 <img className='float-child' id='search' src={Search}/>
-                   <a href=''> 
+                   <a href='#'> 
                    <h3 className='float-child'>Login</h3>                    
                     </a>
             </div>

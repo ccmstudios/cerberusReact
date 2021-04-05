@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import React from 'react'
-import { render} from 'react-dom'
-import Cardgroup from './cardgroup'
+// import { render} from 'react-dom'
+// import Cardgroup from './cardgroup'
 import Carousel from 'react-bootstrap/Carousel'
 import Game from './game'
 
